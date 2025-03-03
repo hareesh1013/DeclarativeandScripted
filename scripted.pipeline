@@ -1,0 +1,11 @@
+node {
+    def myVar = 'value'
+
+        stage('Build') {
+            echo 'Build stage'
+        }
+
+        stage('Deploy') {
+            echo 'Deployment stage'
+        }
+}
